@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class HelperRead {
-    public static List<String> readTxt(String url){
+    public static List<String> readTxt(String url){                                         //function gets an url of a txt, deserializes it and returns the data of the txt in a list
         BufferedReader br = null;
         List<String> strlist = new ArrayList<String>();
 
